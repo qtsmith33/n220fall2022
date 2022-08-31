@@ -26,10 +26,10 @@ describe('red square with black outline at position (25, 25) on canvas - the wal
 
 //Drawing a triangle for a roof
 fill('black');
-triangle(25, 0, 5, 5, 25, 5);
+triangle(25, 25, 35, 15, 45, 25);
 describe('black rectangle with black outline with top point at 25,0 and touching the corners of the box made above - a flat roof of house');
 
 //Drawing a rectangle for a door
 fill('brown')
-rect(15, 15, 10);
+rect(35, 35, 5, 10);
 describe('brown rectangle with black outline at bottom half of square');
