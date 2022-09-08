@@ -9,6 +9,7 @@ function setup() {
 //draws a circle at mouse pointer
 function draw (){
     circle(mouseX, mouseY, 25)
+//Below we check which half of the screen the mouse is on, 200 is middle so less(left) is blue, more (right) red.
     if (mouseX<=200) {
         fill('blue')
     } else{
