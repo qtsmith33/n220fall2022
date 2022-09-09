@@ -2,6 +2,9 @@
 // 8/31/2022
 // N220-24603 Fall 2022
 
+function setup() {
+    createCanvas(800,600);
+}
 
 let myName = "Quinton";
 
