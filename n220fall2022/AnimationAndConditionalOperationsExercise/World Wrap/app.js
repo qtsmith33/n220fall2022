@@ -8,7 +8,7 @@ let a;
 //make canvas and set a to zero
 function setup() {
     createCanvas(800, 600);
-    a=0;
+    a=1;
 }
 
 //draws a blue circle on left side of screen
@@ -19,7 +19,7 @@ function draw (){
     a++;
 //if statement checks to see if a is at the far right edge of canvas, if it is moves to left again.
     if(a=160){
-        a=0;
+        a=1;
     } else {
         a=a;
     }
