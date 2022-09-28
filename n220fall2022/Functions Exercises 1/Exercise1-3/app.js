@@ -2,15 +2,23 @@
 //9/15/2022
 //N220 Fall 2022
 
-//setup canvas, establish a as variable.
-let a;
+//setup canvas
 function setup() {
-    createCanvas(400, 400)
-    a=0
+    createCanvas(800,800);
+
 }
 
-//draw function, increments a and writes in console
 function draw() {
-    a++;
-    console.log(a)
-}2
+    polarPoint();
+}
+
+//functions
+function polarPoint(r){
+    x=r*Math.sin(mouseX);
+    y=r*Math.cos(mouseY);
+}
+
+res=polarPoint();
+function draw(){
+    circle(res.x, res.y, 10);
+}
