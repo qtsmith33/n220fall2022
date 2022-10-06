@@ -10,7 +10,7 @@ function setup() {
 }
 
 //creates a function named redRemover
-function redRemover (color(170,200,150)){
+function redRemover (color){
     //sets red value to zero
     color.setRed(0);
     
@@ -18,8 +18,14 @@ function redRemover (color(170,200,150)){
     noRed = redRemover(color(160,190,140));
 
     fill(noRed);
+}
+
     //draw circle
     function draw(){
-        circle(40,40,40};
+        //tests
+        noRed = redRemover(color(160,190,140));
+
+        fill(noRed);
+        circle(40,40,40);
     
 }
