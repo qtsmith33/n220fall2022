@@ -13,4 +13,4 @@ function setup() {
 function draw() {
     a++;
     console.log(a)
-}2
+}

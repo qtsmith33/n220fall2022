@@ -21,9 +21,9 @@ function tv(x,y,tvheight,tvwidth,scheight,scwidth,antenaLength){
 }
 function drawtv(x,y,tvheight,tvwidth,scheight,scwidth,antenalength){
 rect(x-scheight/2, y-tvwidth/2, tvwidth);
-rect(x-scheight/2, y-scwidth/2. scwidth);
+rect(x-scheight/2, y-scwidth/2, scwidth);
 ellipse(x, y, scwidth-10, scheight-10);
-line(x-tvwidth/2. y-tvwidth/2, x-(tvwidth-scwidth), y-(tvwidth-antenalength));
+line(x-tvwidth/2, y-tvwidth/2, x-(tvwidth-scwidth), y-(tvwidth-antenalength));
 }
 
 function draw(){
