@@ -15,8 +15,8 @@ function tv(x,y,tvheight,tvwidth,scheight,scwidth,antenaLength){
     this.tvwidth=tvwidth;
     this.x=x;
     this.y=y;
-    this.scheigt=scheight;
-    this.scwith=scwidth;
+    this.scheight=scheight;
+    this.scwidth=scwidth;
     this.antenaLength=antenalength;
 }
 function drawtv(x,y,tvheight,tvwidth,scheight,scwidth,antenalength){
