@@ -1,0 +1,58 @@
+<html>
+<head>
+    <style>
+        #colorBlock{
+            width:500px;
+            height:400px;
+            background-color: black;
+
+        }
+        #displayColor{
+            width:500px;
+            text-align: center;
+        
+        }
+        .row{
+            width:500px;
+            display:flex;
+            justify-content: space-between;
+        }
+        .button{
+            width:100px;
+            height: 25px;
+            border:2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Quinton Smith</h1>
+    <p>N220 Projects</p>
+    <p>Fall 2022</p>
+
+    <div id="colorBlock"></div>
+    <div id="displayColor">Color: rgb(0,0,0)</div>
+    <div class="row">
+        <div class="button" dataRed="1" onclick="handleClick(event)">+1 Red</div>
+        <div class="button" dataRed="5" onclick="handleClick(event)">+5 Red</div>
+        <div class="button" dataRed="10" onclick="handleClick(event)">+10 Red</div>
+        
+    </div>
+    <div class="row">
+        <div class="button" dataGreen="1" onclick="handleClick(event)">+1 Green</div>
+        <div class="button" dataGreen="5" onclick="handleClick(event)">+5 Green</div>
+        <div class="button" dataGreen="10" onclick="handleClick(event)">+10 Green</div>
+        
+    </div>
+    <div class="row">
+        <div class="button" dataBlue="1" onclick="handleClick(event)">+1 Blue</div>
+        <div class="button" dataBlue="5" onclick="handleClick(event)">+5 Blue</div>
+        <div class="button" dataBlue="10" onclick="handleClick(event)">+10 Blue</div>
+        
+    </div>
+
+
+
+    <script src="app.js"></script>
+    
+</body>
+</html>
